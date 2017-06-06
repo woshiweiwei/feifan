@@ -1,0 +1,245 @@
+*{
+	/* reset 所有的样式 */
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-color: #fff;
+	font-size: 14px;
+	color: #333333;
+	font-family: "arial, helvetica, sans-serif";
+}
+
+a{
+	color: #333;
+	text-decoration: none;
+}
+
+.w{
+	width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.left{
+	float: left;
+}
+
+.right{
+	float: right;
+}
+/* 恢复父容器塌陷的高度 */
+.clear:after{
+	display: block;
+	content: " ";
+	clear: both;
+}
+
+/* 顶部 */
+.top{
+	font-size: 12px;
+	min-width: 1200px;
+	height: 38px;
+	line-height: 38px;
+	background-color: #e1f3fd;
+}
+
+.top li{
+	float: left;
+	list-style: none;
+	padding:0 11px;
+	position: relative;
+}
+
+.top li span.fa{
+	color: #D82936;
+}
+/* hover效果 */
+.top li:hover span.fa:before{
+	content: "\f106";
+}
+
+.top li:hover{
+	background-color: gainsboro;
+}
+.top li:hover .sub-nav{
+	display: block;
+}
+/* 二级菜单 */
+.top .sub-nav{
+	position: absolute;
+	top: 38px;
+	left: 0px;
+	width: 100px;
+	text-align: center;
+	background-color: gainsboro;
+	z-index: 9999;
+	display: none;
+}
+.top .sub-nav li{
+	width: inherit;
+	padding: 0;
+}
+.top .sub-nav li:hover{
+	background-color: #e1f3fd;
+}
+.top .sub-nav li:hover a{
+	color: #d82936;
+}
+.top .wechat li{
+	height: 38px;
+	padding-top:6px;
+	box-sizing: border-box;
+}
+.top .wechat li:hover{
+	background-color:#e1f3fd ;
+}
+.top .wechat li:hover .qrcode{
+	display: block;
+}
+.top .qrcode{
+	display: none;
+	top: 38px;
+	right: 0px;
+	position:absolute;
+	width: 110px;
+	height: 110px;
+}
+.top .qrcode img{
+	width: inherit;
+	height: inherit;
+}
+
+/* 头部  */
+.header{
+	height: 114px;
+	padding: 22px 0;
+	box-sizing: border-box;
+	background-color: blue;
+}
+.header .logo{
+	height: 70px;
+}
+.header .logo img{
+	height: 70px;
+}
+.header .slogan{
+	font-size: 16px;
+	margin-left: 32px;
+	line-height: 70px;
+}
+
+.header ul{
+	line-height: 70px;
+	list-style: none;
+}
+.header ul li{
+	float: left;
+	font-size: 16px;
+	margin-right: 36px;
+}
+.header li span.fa{
+	font-size: 30px;
+	color: #efc15f;
+	margin-right: 8px;
+}
+.header li.phone-400{
+	font-size: 18px;
+}
+.header li.phone-400 span{
+	font-size: 25px;
+	color: #dd2527;
+}
+
+/*  banner */
+.banner{
+	height: 350px;
+	background-color: red;
+	position: relative;
+}
+
+.banner ul{
+	list-style:none;
+}
+.banner ul li{
+	width: 100%;
+	height: 350px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	display: none;
+}
+.banner ul li:first-child{
+	display: block;
+}
+.banner ul li img{
+	width: inherit;
+	height: inherit;
+}
+
+.banner .points{
+	position: absolute;
+	bottom: 20px;
+	left: 50%;
+}
+.banner .points span{
+	display: block;
+	float: left;
+	width: 12px;
+	height: 12px;
+	margin: 0 6px;
+	border-radius: 50%;
+	border: solid 1px #FFFFFF;
+}
+.banner .points span.active{
+	border-color:#de2824;
+	background-color: #de2824;
+}
+
+
+/* 课程  */
+.class{
+	height: 450px;
+	background-color: yellow;
+	position: relative;
+}
+.class > div{
+	height: inherit;
+}
+
+.class .class-news{
+	padding-left:240px;
+	padding-right: 228px;
+}
+
+.class .class-list{
+	width: 220px;
+	background-color: red;
+	position: absolute;
+	left: 0px;
+	top: 0;
+}
+
+.class .class-list ul{}
+.class .class-list ul li{
+	height:41px;
+	box-sizing: border-box;
+	border-left: solid 1px #d8d8d8;
+	border-right:solid 1px #d8d8d8 ;
+	border-bottom: solid  1px #d8d8d8;
+}
+.class .class-list li:first-child{
+	border-left:none;
+	border-right:none;
+	background-color: #dd2726;
+	color: #FFFFFF;
+}
+
+.class .class-hot{
+	width: 200px;
+	background-color: blue;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+}
