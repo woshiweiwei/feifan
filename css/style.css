@@ -383,25 +383,160 @@ a{
 	font-weight: bold;
 }
 .class .class-hot .class-hot_2{
+	position: relative;
 	width: inherit;
 	height: 125px;
-	margin-top: 3px;	
+	margin-top: 3px;
+	background-color: red;	
+}
+.class .class-hot .class-hot_3{
+	position: relative;
+	width: inherit;
+	height: 125px;
+	margin-top: 3px;
+	background-color: red;		
+}
+.class .class-hot .class-hot_4{
+	position: relative;
+	width: inherit;
+	height: 125px;
+	margin-top: 3px;
+	background-color: red;		
 }
 .class .class-hot .class-hot_2 img{
 	width: inherit;
 	height: inherit;
 }
 .class .class-hot .class-hot_2 div{
-	position: relative;
-	bottom: 29px;
+	position: absolute;
+	bottom: 0px;
 	width: inherit;
 	height: 25px;
+	line-height: 25px;
 	background-color: #BFADA8;
 	opacity: 0.5;
 	color: black;
 }
+.class .class-hot .class-hot_2 div:hover{
+	height: 50px;
+	line-height: 50px;
+}
 .course{
-	height: 510px;
-	margin-top:50px ;
-	background-color: aqua;
+	height: 560px;
+	margin-top:40px ;
+	
+}
+.course .course-top{
+	width: inherit;
+	height:50px;
+	background-color: red;
+	margin-bottom: 25px;
+}
+.course .course-top  ul{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	height: 49px;
+	border-bottom: #959BA9 1px solid;
+}
+.course .course-top ul li{
+	height: inherit;
+	line-height: 50px;
+	font-size: 14px;
+	color: #959BA9;
+	float: left;
+	margin: 0 25px;
+}
+.course .course-top ul li:first-child{
+	height: inherit;
+	line-height: 50px;
+	font-size: 20px;
+	color:#000000;
+	float: left;
+	margin-left: 2px;
+	margin-right: 153px;
+}
+
+.course .course-img{
+	width: 1200px;
+	height: 250px;
+	margin-bottom: 40px;
+}
+
+.course .course-img ul{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	width:inherit;
+	height: inherit;
+}
+.course .course-img ul li{
+	font-size: 15px;
+	width: 270px;
+	float: left;
+	height: inherit;
+	margin: 0 15px;
+	position: relative;
+}
+.course .course-img ul li img{
+	margin-bottom: 10px;
+}
+.course .course-img ul li .img_1{
+	font-size: 10px;
+	color: #808080;
+	position: absolute;
+	bottom: 0;
+	height: 12px;
+}
+.course .course-img ul li a{
+	position: absolute;
+	font-size: 10px;
+	color: #808080;
+	right: 0;
+	bottom: 0;
+}
+.course .course-bottom{
+	width: inherit;
+	height: 150px;
+	margin-bottom: 16px;
+	
+}
+.course .course-bottom .course-bottom-1{
+	width: 570px;
+	height: 150px;	
+	float: left;
+}
+.course .course-bottom .course-bottom-2{
+	width: 570px;
+	height: 150px;
+	float: right;
+}
+
+.course .news{
+	height: 34px;
+	line-height: 34px;
+	position: relative;
+	overflow: hidden;
+	background-color: yellow;
+}
+.course .register{
+	width: 110px;
+	height: 34px;
+	background-color: blue;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 10;
+}
+
+.course ul.news-list{
+	position: absolute;
+	top: 0;
+	left: 0;
+	list-style: none;
+	width: 20000px;
+}
+.course ul.news-list li{
+	float: left;
+	margin-right: 26px;
 }
