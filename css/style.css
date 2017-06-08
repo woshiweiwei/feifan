@@ -594,16 +594,15 @@ a{
 }
 .tails-main .tails-main-1 ul{
 	list-style: none;
-	padding: 0;
 	margin: 0;
-	width: inherit;
-	height: inherit;
-	padding-top: 30px;
-	padding-bottom: 30px;
+	width: 1200px;
+	height: 130px;
 	padding-left: 45px;
 	padding-right: 45px;
+	border-bottom:1px solid #333333 ;
 }
 .tails-main .tails-main-1 ul li{
+	padding-top: 40px;
 	width: 170px;
 	height: 70px;
 	float: left;
@@ -623,14 +622,35 @@ a{
 	width: 130px;
 	height: 20px;
 	font-size: 16px;
-	top: -20px;
+	line-height: 20px;
+	top: 40px;
 }
 .tails-main .tails-main-1 ul li .tails-news_2-3{
 	position: absolute;
 	height: 50px;
 	width: 130px;
 	font-size: 12px;
+	line-height: 50px;
 	left: 50px;
-	top: 0;
+	top: 60px;
 }
 
+.tails-bottom{
+	height: 300px;
+}
+.tails-bottom .tails-bottom-1{
+	width: 130px;
+	float: left;
+	padding: 0 4px;
+}
+.tails-bottom .tails-bottom-1 ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	widows: 138px;
+	height: 300px;
+}
+
+.tails-bottom .tails-bottom-1 ul li{
+	
+}
