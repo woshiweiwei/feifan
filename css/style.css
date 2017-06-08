@@ -544,3 +544,93 @@ a{
 	height: 690px;
 	background-color: aqua;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*尾部的css*/
+.tails-top{
+	height: 150px;
+	margin-bottom:55px ;
+}
+.tails-top h1{
+	height: 70px;
+}
+.tails-top .tails-top-1{
+	height: 80px;
+	width: 1200px;
+}
+.tails-top .tails-top-1 ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	width: inherit;
+	height: inherit;
+	padding-left: 45px;
+	padding-right: 45px;
+}
+.tails-top .tails-top-1 ul li{
+	margin:0 7.5px;
+	float: left;
+	width:170px;
+	height: 80px;
+	border: 1px solid #959BA9;
+}
+.tails-main{
+	height: 575px;	
+}
+.tails-main .tails-main-1{
+	height: 130px;
+}
+.tails-main .tails-main-1 ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	width: inherit;
+	height: inherit;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	padding-left: 45px;
+	padding-right: 45px;
+}
+.tails-main .tails-main-1 ul li{
+	width: 170px;
+	height: 70px;
+	float: left;
+	line-height: 70px;
+	margin: 0 7.5px;
+	position: relative;
+}
+.tails-main .tails-main-1 ul li .tails-news_2-1{
+	width: 40px;
+	height: 40px;
+	position: absolute;
+	left: 0;	
+}
+.tails-main .tails-main-1 ul li .tails-news_2-2{
+	position: absolute;
+	left: 50px;
+	width: 130px;
+	height: 20px;
+	font-size: 16px;
+	top: -20px;
+}
+.tails-main .tails-main-1 ul li .tails-news_2-3{
+	position: absolute;
+	height: 50px;
+	width: 130px;
+	font-size: 12px;
+	left: 50px;
+	top: 0;
+}
+
