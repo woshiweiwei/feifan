@@ -542,22 +542,220 @@ a{
 }
 .product{
 	height: 690px;
-	background-color: aqua;
+}
+.product .product-top{
+	width: 1200px;
+	height: 300px;
+	margin-bottom: 90px;
 }
 
+.product .product-top .product-top-1{
+	width: inherit;
+	height: 50px;
+}
+.product .product-top .product-top-2{
+	width: inherit;
+	height: 250px;
+}
+.product .product-top .product-top-2 ul{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+.product .product-top .product-top-2 ul li{
+	width: 270px;
+	height: 250px;
+	float: left;
+	margin: 0 15px;
+	position: relative;
+}
+.product .product-top .product-top-2 ul li .pTopD{
+	width: 270px;
+	height: 250px;
+	position: absolute;
+	background-color: red;
+	top: 0;
+	opacity: 0.5;
+	display: none;
+}
+.product .product-top .product-top-2 ul li:hover .pTopD{
+	display: block;
+}
+.product .product-top .product-top-2 ul li div{
+	width: 270px;
+	height: 180px;
+}
+.product .product-top .product-top-2 ul li p{
+	height: 35px;
+	font-size: 12px;
+	color: #959BA9;
+}
+.product .product-top .product-top-2 ul li .prTop{
+	font-size: 16px;
+	line-height: 35px;
+	color: #000000;
+}
 
+.product .product-top1 .product-top-1{
+	width: inherit;
+	height: 29px;
+	border-bottom: 1px #999999 solid;
+	margin-bottom: 20px;
+}
+.product .product-top1 .product-top-1 .box1{
+	width: 270px;
+	height: inherit;
+	float: left;
+}
+.product .product-top1 .product-top-1 ul{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	height: 29px;
+}
+.product .product-top1 .product-top-1 ul li{
+	width: 100px;
+	height: 29px;
+	float: left;
+	padding: 0 10px;
+}
+.product .product-top1 .product-top-2{
+	width: inherit;
+	height: 250px;
+}
+.product .product-top1 .product-top-2 ul{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+.product .product-top1 .product-top-2 ul li{
+	width: 270px;
+	height: 250px;
+	float: left;
+	margin: 0 15px;
+	position: relative;
+}
+.product .product-top1 .product-top-2 ul li .pTopD{
+	width: 270px;
+	height: 250px;
+	position: absolute;
+	background-color: red;
+	top: 0;
+	opacity: 0.5;
+	display: none;
+}
+.product .product-top1 .product-top-2 ul li:hover .pTopD{
+	display: block;
+}
+.product .product-top1 .product-top-2 ul li div{
+	width: 270px;
+	height: 180px;
+}
+.product .product-top1 .product-top-2 ul li p{
+	height: 35px;
+	font-size: 12px;
+	color: #959BA9;
+}
+.product .product-top1 .product-top-2 ul li .prTop{
+	font-size: 16px;
+	line-height: 35px;
+	color: #000000;
+}
 
+.main-bottom{
+	margin-top: 50px;
+	height: 850px;
+}
+.main-bottom .main-bottom-1{
+	height: 275px;
+}
+.main-bottom .main-bottom-1 h2{
+	height: 50px;
+}
+.main-bottom .main-bottom-1 .mBottom{
+	height: 200px;
+	margin-bottom:25px;
+    width: 1200px;
+    background-color: lightskyblue;
+}
+.main-bottom .main-bottom-1 .mBottom ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.main-bottom .main-bottom-1 .mBottom ul li{
+	float: left;
+	width: 400px;
+	height: 200px;
+	position: relative;
+}
 
+.main-bottom .main-bottom-1 .mBottom ul li .tails-news_2-1{
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	left: 20px;	
+	top:40px
+}
+.main-bottom .main-bottom-1 .mBottom ul li .tails-news_2-2{
+	position: absolute;
+	left: 80px;
+	width: 320px;
+	height: 20px;
+	font-size: 16px;
+	line-height: 20px;
+	top: 40px;
+	left: 80px;
+}
+.main-bottom .main-bottom-1 .mBottom ul li .tails-news_2-3{
+	position: absolute;
+	height: 110px;
+	width: 320px;
+	font-size: 12px;
+	left: 80px;
+	top: 80px;
+}
 
-
-
-
-
-
-
-
-
-
+.main-bottom .main-bottom-2{
+	height: 575px;
+}
+.main-bottom .main-bottom-2 h3{
+	height: 70px;
+}
+.main-bottom .main-bottom-2 .mBottom1{
+	height: 500px;
+	margin-bottom: 5px;
+}
+.main-bottom .main-bottom-2 .mBottom1 ul{
+	height: 500px;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.main-bottom .main-bottom-2 .mBottom1 ul li{
+	width: 300px;
+	height: 250px;
+	float: left;
+	text-align: center;
+	position: relative;
+}
+.main-bottom .main-bottom-2 .mBottom1 ul li div{
+	width: 190px;
+	height: 130px;
+	position: absolute;
+	left: 55px;
+}
+.main-bottom .main-bottom-2 .mBottom1 ul li div img{
+	width: 190px;
+	height: 130px;
+}
+.main-bottom .main-bottom-2 .mBottom1 ul li p{
+	width: 300px;
+	height: 120px;
+	line-height: 120px;
+	position: absolute;
+	top: 130px;
+}
 /*尾部的css*/
 .tails-top{
 	height: 150px;
@@ -599,7 +797,7 @@ a{
 	height: 130px;
 	padding-left: 45px;
 	padding-right: 45px;
-	border-bottom:1px solid #333333 ;
+	border-bottom:1px solid #ccc ;
 }
 .tails-main .tails-main-1 ul li{
 	padding-top: 40px;
@@ -664,4 +862,35 @@ a{
 .tails-bottom .tails-bottom-1 ul li:first-child{
 	color: #000000;
 	font-size: 16px;
+}
+.tails-bottom .tails-bottom-2{
+	width: 230px;
+	height: inherit;
+	float: right;
+}
+.tails-bottom .tails-bottom-2 .tbottom1{
+	margin-top: 80px;
+	width: 110px;
+	height: 110px;
+}
+.tails-bottom .tails-bottom-2 .tbottom2{
+	margin-top: 10px;
+	width: 230px;
+	height: 40px;
+	line-height: 40px;
+	font-size: 18px;
+}
+.tails-bottom .tails-bottom-2 .tbottom3{
+	width: 230px;
+	height: 20px;
+	line-height: 20px;
+	font-size: 12px;
+}
+.tails-bottom .tails-bottom-2 .tbottom4{
+	margin-top: 9px;
+	width: 100px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	border: 1px #CCCCCC solid;
 }
