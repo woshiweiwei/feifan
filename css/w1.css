@@ -1,0 +1,96 @@
+.z2-main{
+	height: 1510px;
+	margin-top: 20px;
+	margin-top: 40px;
+}
+.z2-main .z2-main-left{
+	width: 300px;
+	height: inherit;
+	float: left;
+
+}
+.z2-main .z2-main-left ul{
+	width: 223px;
+    height: 410px;
+    padding: 0;
+    list-style: none;
+    margin-left: 75px;
+    border: solid 1px #f3f3f3;	
+    
+}
+
+.z2-main .z2-main-left ul li{
+	width: 200px;
+	height: 45px;
+	line-height: 45px;
+	padding-left: 24px;
+}
+.z2-main .z2-main-left ul li:first-child{
+	height: 50px;
+	line-height: 50px;
+	font-size: 20px;
+	font-weight: bold;
+}
+.z2-main .z2-main-left ul li:first-child:hover{
+	background-color: #FFFFFF;
+}
+.z2-main .z2-main-left ul li:hover{
+	background-color: #f3f3f3;
+}
+.z2-main .z2-main-right{
+	width: 900px;
+	height: inherit;
+	float: right;
+}
+.z2-main .z2-main-right ul{
+	list-style: none;
+	height: 1380px;
+	padding: 0;
+	margin: 0;
+	display: none;
+}
+.z2-main .z2-main-right ul:nth-child(1){
+	display: block;
+}
+.z2-main .z2-main-right ul li{
+	height: 170px;
+	border-bottom: 1px solid #9c9da2;
+	width: 800px;
+	margin: 0 50px;
+	position: relative;
+}
+.z2-main .z2-main-right ul li:first-child{
+	height: 50px;
+	line-height: 50px;
+	font-size: 20px;
+	font-weight: bold;
+	border: none;	
+}
+.z2-main .z2-main-right ul li div{
+	width: 120px;
+	height: 120px;
+	position: absolute;
+	right: 0px;
+	top: 25px;
+	background-color: red;
+	border-radius: 50%;
+}
+
+.z2-main .z2-main-right ul li p{
+	width: 660px;
+}
+.z2-main .z2-main-right ul li .z2-right-1{
+	font-size: 14px;
+	height: 36px;
+	line-height: 36px;
+}
+.z2-main .z2-main-right ul li .z2-right-2{
+	font-size: 12px;
+	color:#9c9da2 ;
+	height: 57px;
+}
+.z2-main .z2-main-right ul li .z2-right-3{
+	font-size: 12px;
+	color:#9c9da2 ;
+	height: 30px;
+}
