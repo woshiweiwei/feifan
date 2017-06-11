@@ -39,12 +39,40 @@
 }
 .z2-main .z2-main-right{
 	width: 900px;
-	height: inherit;
+	height: 1510px;
 	float: right;
+	position: relative;
+}
+.z2-main .z2-main-right .next{
+	width: 900px;
+	position: absolute;
+	bottom: 0;
+	height: 100px;
+	background-color: #EFC15F;
+}
+.z2-main .z2-main-right .next ul{
+	width: 700px;
+	margin:0 100px;
+	list-style: none;
+	height: 100px;
+	padding: 0;
+	display: block;
+}
+.z2-main .z2-main-right .next ul li{
+	margin:25px 5px;
+	float: left;
+	height: 50px;
+	width: 80px;
+	font-size: 30px;
+	font-weight:bold ;
+	line-height: 50px;
+	text-align: center;
+	padding: 0;
+	background-color: #008000;
 }
 .z2-main .z2-main-right ul{
 	list-style: none;
-	height: 1380px;
+	height: 1410px;
 	padding: 0;
 	margin: 0;
 	display: none;
