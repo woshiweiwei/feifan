@@ -122,3 +122,22 @@
 	color:#9c9da2 ;
 	height: 30px;
 }
+
+
+
+.z3-main-right .z3-main-right{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+.z3-main-right .z3-main-right li{
+	width: 540px;
+}
+.z3-main-right .z3-main-right1 li div{
+	width: 540px;
+	height: 300px;
+}
+.z3-main-right .z3-main-right1 li div img{
+	width: 540px;
+	height: 300px;
+}
