@@ -47,11 +47,26 @@
 	padding: 0;
 	margin: 0;
 	list-style: none;
+	display: none;
 }
 .z2-main .z3-main-right ul li{	
 	float: left;
-	width: 300px;
+	width: 280px;
+	height: 300px;
+	padding: 10px;
+}
+.z2-main .z3-main-right ul li img{
+	width: 280px;
+	height: 200px;
 }
 .z2-main .z3-main-right ul li:first-child{
 	width:900px;
+	height: 50px;
+	line-height: 50px;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.z2-main .z3-main-right ul:nth-child(1){
+	display: block;
 }
